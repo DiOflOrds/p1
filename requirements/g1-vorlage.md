@@ -13,3 +13,7 @@
 - **G1c:** zurückweisen.
 
 **Frist:** 2026-08-09 · **Default:** kein Default — blockiert Sprint 1.
+
+---
+
+**Entscheidung (P1-D001, via Session-Dialog, 2026-08-07): G1a — freigegeben.** Baseline `p1-req-v1.0` getaggt; Sprint 1 startet mit S1-1 (Architektur-Delta).
