@@ -3,7 +3,7 @@
 Stand: 2026-08-07 · Tickets: 9
 
 
-## open (5)
+## in_review (5)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
