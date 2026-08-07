@@ -1,14 +1,26 @@
-# P1 Backlog (vorbefüllt aus P0-Abschluss, T-0066/T-0070)
+# P1 Backlog v1 (T-0001, PL) — „Mission Control 2.0"
 
-| # | Item | Quelle | Prio |
-|---|---|---|---|
-| B1 | Multi-Projekt-Sichten in Board/Backend (Aggregation über p0/p1/…, Tick mit Projektwahl) | F8/D023 | hoch |
-| B2 | Review-Unabhängigkeit stärken: externe Stichproben (Mensch/Zweitsession) je Sprint | Self-Check (SUP.1/SWE.3) | hoch |
-| B3 | Aufwandsschätzung + leichte Terminplanung je Sprint | Self-Check (MAN.3) | mittel |
-| B4 | Integrationsstrategie als eigener Abschnitt der Verifikationsstrategie | Self-Check (SWE.5) | mittel |
-| B5 | Inbox als Regel-HITL-Kanal etablieren (Kriterium-4-Abweichung aus P0) | P0-Abschlussbericht | mittel |
-| B6 | Frontend-Ausbau: Requirements-/Traceability-/Baseline-Sichten (Kriterium-5-Rest) | P0 Kap. 8 Schnitt | mittel |
-| B7 | Katalog-CI-Automatik + Registry-Publish für Releases; MCP-Verpackung (P3-Vorgriff prüfen) | REU.2/SPL.2 | niedrig |
-| B8 | SYS-Prozesse + Ziel-HW-Teststrategie vorbereiten (Embedded) | F6/D023 | niedrig |
-| B9 | T-0008: Anthropic-API-Key + erster Claude-API-Tick mit Kostendaten → Budget-Review (D012) | D015 | mittel |
-| B10 | VM-Wiedervorlage (Betriebsort-Review nach P1-Erfahrung) | D017 | niedrig |
+*Detaillierung der Epics aus dem Projektauftrag (G0/D000). Sprint-Zuordnung = Zielbild, Re-Planung transparent erlaubt.*
+
+## Sprint 1 — P1-E1 Multi-Projekt-Kern
+
+| Geplant | Inhalt | Rolle |
+|---|---|---|
+| S1-1 | Architektur-Delta Multi-Projekt (Projekt-Discovery/-Registry, API-Scoping) + ADR | ARCH |
+| S1-2 | Backend: Board/Reports/KPI je Projekt + Gesamtsicht (SWR-025) | DEV |
+| S1-3 | Frontend: Projektwahl + gescopte Ansichten (SWR-026) | DEV |
+| S1-4 | Inbox projektübergreifend (SWR-027) | DEV |
+| S1-5 | Tick/Preflight/Matrix über alle Projekte (SWR-028/029) | DEV |
+| S1-6 | Verifikation + Matrix-Erweiterung (P1-SWRs testgedeckt) | TEST |
+
+## Sprint 2 — P1-E2 Frontend-Views + P1-E3 Inbox-Regelkanal
+
+Requirements-Browser, Traceability- und Baseline-View (lesend); DR an Mensch: SMTP-Zugang; E-Mail-Benachrichtigung real; ab hier alle DRs über die Inbox (B5-Nachweis: ≥5 Inbox-DRs bis G3).
+
+## Sprint 3 — P1-E4/E5 + Härtung + G3
+
+Externe Review-Stichproben etabliert (je Sprint dokumentiert); Betriebsreste T-0072 (Copilot-Lauf) und B9 (Claude-API-Tick nach Budgetfreigabe); Abnahme gegen die 5 Kriterien des Projektauftrags.
+
+## Nicht zugeordnet (aus P0-Überhang, bei Gelegenheit)
+
+B3 Aufwandsschätzung · B4 Integrationsstrategie-Abschnitt · B7 Katalog-CI/Registry · B8 SYS/Embedded-Vorbereitung · B10 VM-Wiedervorlage · Rechte-/Nutzerverwaltung (F9).
