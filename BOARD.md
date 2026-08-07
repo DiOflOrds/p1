@@ -3,7 +3,7 @@
 Stand: 2026-08-07 · Tickets: 21
 
 
-## open (6)
+## open (5)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -12,6 +12,11 @@ Stand: 2026-08-07 · Tickets: 21
 | [T-0018](tickets/T-0018.md) | Copilot-PoC-Lauf am Team-Node (p0/T-0072) — P0-Kriterium 9 vervollständigen | task | mensch | mittel | 3 | — |
 | [T-0019](tickets/T-0019.md) | Geräte-Stichproben dokumentieren (D003 + D005): Selector, Übersicht, neue Tabs | task | mensch | mittel | 3 | — |
 | [T-0021](tickets/T-0021.md) | Sprint-3-Report + Schluss-Retro → G4 als Inbox-DR | task | pl | mittel | 3 | T-0020 |
+
+## in_review (1)
+
+| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|
 | [T-0016](tickets/T-0016.md) | Prozess-CR (Retro S2): Stichproben-Zeile in G4-Vorlagen + Zähler im Report | change-request | coach | niedrig | 3 | — |
 
 ## done (15)
