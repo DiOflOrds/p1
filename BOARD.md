@@ -13,13 +13,7 @@ Stand: 2026-08-07 · Tickets: 21
 | [T-0019](tickets/T-0019.md) | Geräte-Stichproben dokumentieren (D003 + D005): Selector, Übersicht, neue Tabs | task | mensch | mittel | 3 | — |
 | [T-0021](tickets/T-0021.md) | Sprint-3-Report + Schluss-Retro → G4 als Inbox-DR | task | pl | mittel | 3 | T-0020 |
 
-## in_review (1)
-
-| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|
-| [T-0016](tickets/T-0016.md) | Prozess-CR (Retro S2): Stichproben-Zeile in G4-Vorlagen + Zähler im Report | change-request | coach | niedrig | 3 | — |
-
-## done (15)
+## done (16)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -38,3 +32,4 @@ Stand: 2026-08-07 · Tickets: 21
 | [T-0003](tickets/T-0003.md) | P1-Registrierung: board-check-Workflow, BOARD-Grundgerüst, Preflight-/Statusintegration | task | cm | mittel | 0 | — |
 | [T-0008](tickets/T-0008.md) | Tick-Projektvalidierung + Preflight-Board-Check/Matrix über alle Projekte (SWR-028/029) | task | dev | mittel | 1 | T-0004 |
 | [T-0010](tickets/T-0010.md) | Prozess-CR (Retro S1): trace_matrix --alle-projekte — SWR-Quellen per Discovery | change-request | dev | mittel | 2 | — |
+| [T-0016](tickets/T-0016.md) | Prozess-CR (Retro S2): Stichproben-Zeile in G4-Vorlagen + Zähler im Report | change-request | coach | niedrig | 3 | — |
