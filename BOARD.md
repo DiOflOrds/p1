@@ -1,13 +1,14 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-07 · Tickets: 15
+Stand: 2026-08-07 · Tickets: 16
 
 
-## open (1)
+## open (2)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
 | [T-0014](tickets/T-0014.md) | DR: SMTP-Zugang für E-Mail-Benachrichtigung einrichten (D004) | decision-request | pl | hoch | 2 | — |
+| [T-0016](tickets/T-0016.md) | Prozess-CR (Retro S2): Stichproben-Zeile in G4-Vorlagen + Zähler im Report | change-request | coach | niedrig | 3 | — |
 
 ## done (14)
 
