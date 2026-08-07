@@ -1,7 +1,13 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-07 · Tickets: 9
+Stand: 2026-08-07 · Tickets: 10
 
+
+## open (1)
+
+| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|
+| [T-0010](tickets/T-0010.md) | Prozess-CR (Retro S1): trace_matrix --alle-projekte — SWR-Quellen per Discovery | change-request | dev | mittel | 2 | — |
 
 ## done (9)
 
