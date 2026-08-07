@@ -3,14 +3,19 @@
 Stand: 2026-08-07 · Tickets: 15
 
 
-## open (5)
+## open (2)
+
+| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|
+| [T-0014](tickets/T-0014.md) | DR: SMTP-Zugang für E-Mail-Benachrichtigung einrichten (D004) | decision-request | pl | hoch | 2 | — |
+| [T-0015](tickets/T-0015.md) | SWE.4: Verifikation SWR-030–033 + Matrix + Sprint-Report → G4 | task | test | hoch | 2 | T-0012, T-0013 |
+
+## in_review (3)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
 | [T-0012](tickets/T-0012.md) | Views: Requirements/Traceability/Baselines — API + Frontend (SWR-030–032) | task | dev | hoch | 2 | T-0011 |
 | [T-0013](tickets/T-0013.md) | DR-Benachrichtigung: Skript dr_benachrichtigung.py — einmalig je DR, ausfalltolerant (SWR-033) | task | dev | hoch | 2 | T-0011 |
-| [T-0014](tickets/T-0014.md) | DR: SMTP-Zugang für E-Mail-Benachrichtigung einrichten (D004) | decision-request | pl | hoch | 2 | — |
-| [T-0015](tickets/T-0015.md) | SWE.4: Verifikation SWR-030–033 + Matrix + Sprint-Report → G4 | task | test | hoch | 2 | T-0012, T-0013 |
 | [T-0010](tickets/T-0010.md) | Prozess-CR (Retro S1): trace_matrix --alle-projekte — SWR-Quellen per Discovery | change-request | dev | mittel | 2 | — |
 
 ## done (10)
