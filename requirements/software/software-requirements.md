@@ -10,6 +10,15 @@
 | SWR-028 | The orchestrator tick shall operate on any discovered project via `--projekt`, keeping the existing single-project behavior and validations unchanged for the default case. | STK-013 | Unit tests (project selection, unchanged default) | medium | reviewed |
 | SWR-029 | Preflight and traceability tooling shall cover all discovered projects and configured products in one invocation, reporting findings per project/product. | STK-013 | Unit tests (multi-root run) + real run evidence | medium | reviewed |
 
+## Views and notification (Sprint 2, T-0011 — v1.1)
+
+| ID | Requirement | Trace | Verification | Prio | Status |
+|---|---|---|---|---|---|
+| SWR-030 | The backend shall serve the requirements documents of a project (stakeholder and software markdown files) read-only via API, and the frontend shall render them in a requirements view. | STK-013 | API tests (files served, unknown project 404) + UI check | high | reviewed |
+| SWR-031 | The backend shall serve the verification reports of a project (`verification/reports/*.md`, incl. traceability matrices) read-only via API, and the frontend shall render them in a traceability view. | STK-013 | API tests (reports listed/served) + UI check | high | reviewed |
+| SWR-032 | The backend shall list the baselines of every repository under the workspace root (annotated git tags with messages) via API, and the frontend shall render them in a baselines view. | STK-013 | API tests (tags listed per repo) + UI check | medium | reviewed |
+| SWR-033 | The platform shall send one e-mail notification per new decision request (across all projects) containing project, ID, title and deadline; sent DRs are marked on the ticket, delivery failures are logged and retried on the next run without blocking anything. | STK-013, STK-007 (D004) | Unit tests (marker set only on success, no duplicate send) | high | reviewed |
+
 ## Traceability
 
-STK-013 ← SWR-025–029 (complete; no orphans). DoD checklist applied per SWR 2026-08-07 (RM; reviews: feasibility ARCH/DEV context — builds on existing repos_im_root/produkte.yaml mechanics; verifiability QM/TEST context).
+STK-013 ← SWR-025–033 (complete; no orphans). DoD checklist applied per SWR (v1.0: 2026-08-07 RM; v1.1 additions SWR-030–033: 2026-08-07 RM — feasibility ARCH/DEV context, verifiability QM/TEST context). G1 v1.1 pending.
