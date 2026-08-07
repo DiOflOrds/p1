@@ -3,11 +3,16 @@
 Stand: 2026-08-07 · Tickets: 15
 
 
-## open (2)
+## open (1)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
 | [T-0014](tickets/T-0014.md) | DR: SMTP-Zugang für E-Mail-Benachrichtigung einrichten (D004) | decision-request | pl | hoch | 2 | — |
+
+## in_review (1)
+
+| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|
 | [T-0015](tickets/T-0015.md) | SWE.4: Verifikation SWR-030–033 + Matrix + Sprint-Report → G4 | task | test | hoch | 2 | T-0012, T-0013 |
 
 ## done (13)
