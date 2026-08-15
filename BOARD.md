@@ -10,13 +10,7 @@ Stand: 2026-08-15 · Tickets: 22
 | [T-0022](tickets/T-0022.md) | DR: G4 Sprint 3 + formaler P1-Abschluss (Baseline p1-v1.0) | decision-request | pl | hoch | 3 | — |
 | [T-0018](tickets/T-0018.md) | Copilot-PoC-Lauf am Team-Node (p0/T-0072) — P0-Kriterium 9 vervollständigen | task | mensch | mittel | 3 | — |
 
-## in_review (1)
-
-| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|
-| [T-0021](tickets/T-0021.md) | Sprint-3-Report + Schluss-Retro → G4 als Inbox-DR | task | pl | mittel | 3 | T-0020 |
-
-## done (19)
+## done (20)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -38,4 +32,5 @@ Stand: 2026-08-15 · Tickets: 22
 | [T-0008](tickets/T-0008.md) | Tick-Projektvalidierung + Preflight-Board-Check/Matrix über alle Projekte (SWR-028/029) | task | dev | mittel | 1 | T-0004 |
 | [T-0010](tickets/T-0010.md) | Prozess-CR (Retro S1): trace_matrix --alle-projekte — SWR-Quellen per Discovery | change-request | dev | mittel | 2 | — |
 | [T-0019](tickets/T-0019.md) | Geräte-Stichproben dokumentieren (D003 + D005): Selector, Übersicht, neue Tabs | task | mensch | mittel | 3 | — |
+| [T-0021](tickets/T-0021.md) | Sprint-3-Report + Schluss-Retro → G4 als Inbox-DR | task | pl | mittel | 3 | T-0020 |
 | [T-0016](tickets/T-0016.md) | Prozess-CR (Retro S2): Stichproben-Zeile in G4-Vorlagen + Zähler im Report | change-request | coach | niedrig | 3 | — |
