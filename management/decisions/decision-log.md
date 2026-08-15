@@ -9,3 +9,4 @@
 | D004 | 2026-08-07 | Mensch (E. John, via Session-Dialog) | **G1 v1.1 erteilt (G1a):** SWR-030–033 (Views + DR-Benachrichtigung) freigegeben; Baseline `p1-req-v1.1` | G1a / G1b / G1c | Set reviewed (DoD); schließt P0-Kriterium-5-Rest und macht D004-E-Mail real | p1/requirements v1.1, Tag p1-req-v1.1, T-0010/12/13 |
 | D005 | 2026-08-07 | Mensch (E. John, via Session-Dialog) | **G4 Sprint 2 erteilt:** 5 Tickets abgenommen (Views, DR-Benachrichtigung, Matrix-Discovery); Baseline `p1-v0.2`. Offen: T-0014 (Inbox-DR SMTP) + Geräte-Stichproben (D003 + neue Tabs) | abnehmen / abnehmen+Stichprobe / Auflagen | 126 Tests grün, Matrix 33/0, P0-Kriterium-5-Rest (B6) geschlossen | Baseline p1-v0.2, Sprint-2-Report, Retro (T-0016) |
 | D006 | 2026-08-07 | Mensch (E. John, via Inbox) | **S1** | lt. T-0014 | mach ich aber später mit dem APP-Passwort | T-0014 |
+| D007 | 2026-08-15 | Mensch (E. John, via Inbox) | **G3a** | lt. T-0020 | — | T-0020 |
