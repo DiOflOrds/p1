@@ -3,15 +3,20 @@
 Stand: 2026-08-15 · Tickets: 21
 
 
-## open (5)
+## open (2)
+
+| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|
+| [T-0018](tickets/T-0018.md) | Copilot-PoC-Lauf am Team-Node (p0/T-0072) — P0-Kriterium 9 vervollständigen | task | mensch | mittel | 3 | — |
+| [T-0021](tickets/T-0021.md) | Sprint-3-Report + Schluss-Retro → G4 als Inbox-DR | task | pl | mittel | 3 | T-0020 |
+
+## in_progress (3)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
 | [T-0017](tickets/T-0017.md) | SMTP aktivieren (D006/S1) + erste echte DR-Mail als Nachweis | task | mensch | hoch | 3 | — |
 | [T-0020](tickets/T-0020.md) | DR: G3 — Abnahme P1 gegen die Projektauftrag-Kriterien 1–5 | decision-request | pl | hoch | 3 | — |
-| [T-0018](tickets/T-0018.md) | Copilot-PoC-Lauf am Team-Node (p0/T-0072) — P0-Kriterium 9 vervollständigen | task | mensch | mittel | 3 | — |
 | [T-0019](tickets/T-0019.md) | Geräte-Stichproben dokumentieren (D003 + D005): Selector, Übersicht, neue Tabs | task | mensch | mittel | 3 | — |
-| [T-0021](tickets/T-0021.md) | Sprint-3-Report + Schluss-Retro → G4 als Inbox-DR | task | pl | mittel | 3 | T-0020 |
 
 ## done (16)
 
