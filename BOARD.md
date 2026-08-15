@@ -3,14 +3,13 @@
 Stand: 2026-08-15 · Tickets: 22
 
 
-## open (2)
+## open (1)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
-| [T-0022](tickets/T-0022.md) | DR: G4 Sprint 3 + formaler P1-Abschluss (Baseline p1-v1.0) | decision-request | pl | hoch | 3 | — |
 | [T-0018](tickets/T-0018.md) | Copilot-PoC-Lauf am Team-Node (p0/T-0072) — P0-Kriterium 9 vervollständigen | task | mensch | mittel | 3 | — |
 
-## done (20)
+## done (21)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -28,6 +27,7 @@ Stand: 2026-08-15 · Tickets: 22
 | [T-0015](tickets/T-0015.md) | SWE.4: Verifikation SWR-030–033 + Matrix + Sprint-Report → G4 | task | test | hoch | 2 | T-0012, T-0013 |
 | [T-0017](tickets/T-0017.md) | SMTP aktivieren (D006/S1) + erste echte DR-Mail als Nachweis | task | mensch | hoch | 3 | — |
 | [T-0020](tickets/T-0020.md) | DR: G3 — Abnahme P1 gegen die Projektauftrag-Kriterien 1–5 | decision-request | pl | hoch | 3 | — |
+| [T-0022](tickets/T-0022.md) | DR: G4 Sprint 3 + formaler P1-Abschluss (Baseline p1-v1.0) | decision-request | pl | hoch | 3 | — |
 | [T-0003](tickets/T-0003.md) | P1-Registrierung: board-check-Workflow, BOARD-Grundgerüst, Preflight-/Statusintegration | task | cm | mittel | 0 | — |
 | [T-0008](tickets/T-0008.md) | Tick-Projektvalidierung + Preflight-Board-Check/Matrix über alle Projekte (SWR-028/029) | task | dev | mittel | 1 | T-0004 |
 | [T-0010](tickets/T-0010.md) | Prozess-CR (Retro S1): trace_matrix --alle-projekte — SWR-Quellen per Discovery | change-request | dev | mittel | 2 | — |
