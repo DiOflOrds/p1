@@ -11,3 +11,4 @@
 | D006 | 2026-08-07 | Mensch (E. John, via Inbox) | **S1** | lt. T-0014 | mach ich aber später mit dem APP-Passwort | T-0014 |
 | D007 | 2026-08-15 | Mensch (E. John, via Inbox) | **G3a** | lt. T-0020 | — | T-0020 |
 | D008 | 2026-08-15 | Mensch (E. John, via Session-Dialog) | **Benachrichtigungsadresse revidiert (D004-Update):** DR-/Entscheidungs-Mails gehen an **dimitri.john83@gmail.com** (statt geraldine.john90@gmail.com) | Adresse ändern / behalten | Erste reale Zustellung ging an die Alt-Adresse; Empfänger via MAIL_TO/Default korrigiert | platform/backend/mailer.py (MAIL_TO_DEFAULT), Team-Node-Umgebung (MAIL_TO) |
+| D009 | 2026-08-15 | Mensch (E. John, via Inbox) | **G4a** | lt. T-0022 | — | T-0022 |
