@@ -1,13 +1,19 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-15 · Tickets: 21
+Stand: 2026-08-15 · Tickets: 22
 
 
 ## open (2)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
+| [T-0022](tickets/T-0022.md) | DR: G4 Sprint 3 + formaler P1-Abschluss (Baseline p1-v1.0) | decision-request | pl | hoch | 3 | — |
 | [T-0018](tickets/T-0018.md) | Copilot-PoC-Lauf am Team-Node (p0/T-0072) — P0-Kriterium 9 vervollständigen | task | mensch | mittel | 3 | — |
+
+## in_review (1)
+
+| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|
 | [T-0021](tickets/T-0021.md) | Sprint-3-Report + Schluss-Retro → G4 als Inbox-DR | task | pl | mittel | 3 | T-0020 |
 
 ## done (19)
