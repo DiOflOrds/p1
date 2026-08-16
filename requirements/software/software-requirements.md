@@ -19,6 +19,14 @@
 | SWR-032 | The backend shall list the baselines of every repository under the workspace root (annotated git tags with messages) via API, and the frontend shall render them in a baselines view. | STK-013 | API tests (tags listed per repo) + UI check | medium | reviewed |
 | SWR-033 | The platform shall send one e-mail notification per new decision request (across all projects) containing project, ID, title and deadline; sent DRs are marked on the ticket, delivery failures are logged and retried on the next run without blocking anything. | STK-013, STK-007 (D004) | Unit tests (marker set only on success, no duplicate send) | high | reviewed |
 
+## Nachtrag v1.2 (pm/N-0019, pm/T-0019, PM-Beschluss B028)
+
+*Betriebs-CR: die Requirements-Ansicht (SWR-030) zeigte ausschließlich das im Kopfbereich gewählte Projekt. Bei 13 Projekten/Teams und 22 Requirements-Dokumenten heißt das: wer nicht weiß, in welchem Repo eine Anforderung liegt, findet sie nicht. Keine neue Projekt-Baseline — `p1-v1.0` bleibt Abnahmereferenz.*
+
+| ID | Requirement | Trace | Verification | Prio | Status |
+|---|---|---|---|---|---|
+| SWR-085 | The requirements API shall accept the collective value `alle` in place of a single project and then serve the requirements documents of **all** discovered projects and teams in one response, each file carrying its project and that project's cockpit group; the requirements view shall show all documents by default and offer filtering by project/team, by group and by full text, stating how many of how many documents are shown. Scoped single-project queries (SWR-030) shall keep their previous behaviour, including the 404 for unknown projects. | STK-013 | Unit tests (collective query spans all projects, origin present per file, single-project query unchanged, unknown project still rejected) + UI checklist (filters narrow the list, counter matches) | high | reviewed |
+
 ## Traceability
 
-STK-013 ← SWR-025–033 (complete; no orphans). DoD checklist applied per SWR (v1.0: 2026-08-07 RM; v1.1 additions SWR-030–033: 2026-08-07 RM — feasibility ARCH/DEV context, verifiability QM/TEST context). G1 v1.1 pending.
+STK-013 ← SWR-025–033, SWR-085 (complete; no orphans). DoD checklist applied per SWR (v1.0: 2026-08-07 RM; v1.1 additions SWR-030–033: 2026-08-07 RM — feasibility ARCH/DEV context, verifiability QM/TEST context). G1 v1.1 pending. v1.2: +SWR-085 (Betriebs-CR pm/T-0019 aus pm/N-0019, PM-Beschluss B028).
