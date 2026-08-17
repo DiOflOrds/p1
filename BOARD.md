@@ -17,11 +17,11 @@ Stand: 2026-08-17 · Tickets: 22
 | [T-0011](tickets/T-0011.md) | SWE.1: SWR-030–033 (Views + DR-Benachrichtigung) draft → reviewed → G1 | task | einmalig | rm | Team | hoch | 2 | — |
 | [T-0012](tickets/T-0012.md) | Views: Requirements/Traceability/Baselines — API + Frontend (SWR-030–032) | task | einmalig | dev | Team | hoch | 2 | T-0011 |
 | [T-0013](tickets/T-0013.md) | DR-Benachrichtigung: Skript dr_benachrichtigung.py — einmalig je DR, ausfalltolerant (SWR-033) | task | einmalig | dev | Team | hoch | 2 | T-0011 |
-| [T-0014](tickets/T-0014.md) | DR: SMTP-Zugang für E-Mail-Benachrichtigung einrichten (D004) | decision-request | einmalig | pl | MENSCH | hoch | 2 | — |
+| [T-0014](tickets/T-0014.md) | DR: SMTP-Zugang für E-Mail-Benachrichtigung einrichten (D004) | decision-request | einmalig | pl | Team | hoch | 2 | — |
 | [T-0015](tickets/T-0015.md) | SWE.4: Verifikation SWR-030–033 + Matrix + Sprint-Report → G4 | task | einmalig | test | Team | hoch | 2 | T-0012, T-0013 |
 | [T-0017](tickets/T-0017.md) | SMTP aktivieren (D006/S1) + erste echte DR-Mail als Nachweis | task | einmalig | mensch | Team | hoch | 3 | — |
-| [T-0020](tickets/T-0020.md) | DR: G3 — Abnahme P1 gegen die Projektauftrag-Kriterien 1–5 | decision-request | einmalig | pl | MENSCH | hoch | 3 | — |
-| [T-0022](tickets/T-0022.md) | DR: G4 Sprint 3 + formaler P1-Abschluss (Baseline p1-v1.0) | decision-request | einmalig | pl | MENSCH | hoch | 3 | — |
+| [T-0020](tickets/T-0020.md) | DR: G3 — Abnahme P1 gegen die Projektauftrag-Kriterien 1–5 | decision-request | einmalig | pl | Team | hoch | 3 | — |
+| [T-0022](tickets/T-0022.md) | DR: G4 Sprint 3 + formaler P1-Abschluss (Baseline p1-v1.0) | decision-request | einmalig | pl | Team | hoch | 3 | — |
 | [T-0003](tickets/T-0003.md) | P1-Registrierung: board-check-Workflow, BOARD-Grundgerüst, Preflight-/Statusintegration | task | einmalig | cm | Team | mittel | 0 | — |
 | [T-0008](tickets/T-0008.md) | Tick-Projektvalidierung + Preflight-Board-Check/Matrix über alle Projekte (SWR-028/029) | task | einmalig | dev | Team | mittel | 1 | T-0004 |
 | [T-0010](tickets/T-0010.md) | Prozess-CR (Retro S1): trace_matrix --alle-projekte — SWR-Quellen per Discovery | change-request | einmalig | dev | Team | mittel | 2 | — |
